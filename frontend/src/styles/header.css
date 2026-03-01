@@ -16,6 +16,9 @@
 .titulo {
     margin: 0;
     margin-left: 100px;
+    text-decoration: none;
+    color: #ABB2BF;
+    font-weight: bold;
 }
 
 .nav-links {

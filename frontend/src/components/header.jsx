@@ -8,7 +8,9 @@ const Header = () => {
 
   return (
     <header className="cabeca">
-      <h4 className="titulo">XXXX</h4>    
+        <Link to="/" className="titulo">
+          <p>MEU PORTFÓLIO</p>
+        </Link>
 
       <nav>
         <ul className="nav-links">
