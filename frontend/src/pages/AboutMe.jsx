@@ -4,6 +4,7 @@ import '../styles/about.css'
 import amazonLogo from "../assets/amazon.png";
 import googleLogo from "../assets/google.png"
 import ifoodLogo from "../assets/IfoodIcon.png"
+import profilePhoto from "../assets/foto.png"
 
 const AboutMe = () => {
     const { t } = useLanguage()
@@ -18,9 +19,15 @@ const AboutMe = () => {
 
                 <p className="about-subtitle">{t('about-subtitle')}</p>
 
-                <div className="about-bio">
-                    <p>{t('about-paragraph-1')}</p>
-                    <p>{t('about-paragraph-2')}</p>
+                <div className="about-main">
+                    <div className="about-bio">
+                        <p>{t('about-paragraph-1')}</p>
+                        <p>{t('about-paragraph-2')}</p>
+                    </div>
+
+                    <div className="about-photo-wrapper">
+                        <img className="about-photo" src={profilePhoto} alt="Profile" />
+                    </div>
                 </div>
             </section>
 

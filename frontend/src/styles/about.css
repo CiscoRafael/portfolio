@@ -49,6 +49,24 @@
     line-height: 1.7;
 }
 
+.about-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about-photo-wrapper {
+    flex-shrink: 0;
+}
+
+.about-photo {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .about-bio p {
     margin: 0;
 }
@@ -125,6 +143,16 @@
 
     .about-section-title {
         font-size: 1.3rem;
+    }
+
+    .about-main {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .about-photo {
+        width: 100%;
+        max-width: 280px;
     }
 }
 
