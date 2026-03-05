@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="cabeca">
         <Link to="/" className="titulo">
-          <p>MEU PORTFÓLIO</p>
+          <p>{t('meu-portfolio')}</p>
         </Link>
 
       <nav>
