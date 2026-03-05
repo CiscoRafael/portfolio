@@ -19,9 +19,8 @@ Construir um site pessoal com navegacao clara e conteudo organizado, incluindo a
 ## 🛠️ Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para desenvolvimento de interfaces interativas e reutilizáveis.
-- **Tailwind**: Framework CSS utilitário para estilização rápida e responsiva.
 - **Vite**: Build tool utilizada para desenvolvimento local e geração do build de produção.
--  Definir servico de envio de e-mail (EmailJS, Formspree, etc.)
+- **EmailJS**: serviço de envio de e-mail.
 
 ## 📦 Dependências
 
