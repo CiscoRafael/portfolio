@@ -20,7 +20,7 @@ const Home = () => {
             <div className="home-intro">
                 <div className="home-infos">
                     <div className='home-container'>
-                        <h1 className="nome">{t("nome")}</h1>
+                        <h1 className="nome">{t("dono")}</h1>
                         <h3 className="profissao">{t("profissao")}</h3>
                     </div>
 

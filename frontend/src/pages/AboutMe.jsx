@@ -23,6 +23,7 @@ const AboutMe = () => {
                     <div className="about-bio">
                         <p>{t('about-paragraph-1')}</p>
                         <p>{t('about-paragraph-2')}</p>
+                        <p>{t('about-paragraph-3')}</p>
                     </div>
 
                     <div className="about-photo-wrapper">
@@ -45,7 +46,7 @@ const AboutMe = () => {
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
                         <div className="text-box">
                             <h2> {t('position-name-1')}</h2>
-                            <small> 2024-2026</small>
+                            <small> 2025-Atualmente</small>
                             <p>{t('job-description-1')}</p>
                         </div>
                     </div>
@@ -53,27 +54,9 @@ const AboutMe = () => {
                         <img src={googleLogo} alt="GoogleLogo"/>
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-2')}</h2>
                         <div className="text-box">
-                            <h2> {t('position-name-1')}</h2>
-                            <small> 2024-2026</small>
+                            <h2> {t('position-name-2')}</h2>
+                            <small> 2024-2025</small>
                             <p>{t('job-description-2')}</p>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={ifoodLogo} alt="IfoodLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-3')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-2')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-3')}</p>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={amazonLogo} alt="AmazonLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-2')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-3')}</p>
                         </div>
                     </div>
                 </div>

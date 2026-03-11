@@ -7,19 +7,19 @@ const Skills = () => {
      const skillsData = [
         {
             titleKey: 'skills.skill-1-title',
-            techs: "TyppeScript Python JavaScript Cobol"
+            techs: "JavaScript TypeScript HTML CSS Java C++ C# Python"
         },
         {
             titleKey: 'skills.skill-2-title',
-            techs: "VSCode Figma Linux Git Font Awesome"
+            techs: "VSCode Figma Linux Git GitHub"
         },
         {
             titleKey: 'skills.skill-3-title',
-            techs: " React Vue Dinsnake Discord.js"
+            techs: " React Spring Boot NestJs Django "
         },
         {
             titleKey: 'skills.skill-4-title',
-            techs: "SQLite PostGreSQL Mongo"
+            techs: " MySQL SQLite PostGreSQL"
         }
     ];
 

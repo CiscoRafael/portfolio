@@ -11,10 +11,10 @@ const Contacts = () => {
 
     // lista de contatos, cada um com href, label e ícone, editar as urls com suas informações
     const items = [
-        { href: 'https://linkedin.com', label: 'Linkedin', icon: <FaLinkedin /> },
-        { href: 'https://github.com/joaopauloaramuni', label: 'Github', icon: <FaGithub /> },
-        { href: 'mailto:jfwwniogwi@gmail.com', label: 'Email', icon: <FaEnvelope /> },
-        { href: 'https://wa.me/5531999999999', label: 'Whatsapp', icon: <FaWhatsapp /> },
+        { href: 'https://www.linkedin.com/in/franciscorafael06/', label: 'Linkedin', icon: <FaLinkedin /> },
+        { href: 'https://github.com/CiscoRafael', label: 'Github', icon: <FaGithub /> },
+        { href: 'mailto:franciscocjn06@gmail.com', label: 'Email', icon: <FaEnvelope /> },
+        { href: 'https://wa.me/5531989446762', label: 'Whatsapp', icon: <FaWhatsapp /> },
     ];
 
     return (
