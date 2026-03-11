@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import { useLanguage } from "../services/translation";
 import "../styles/bestprojects.css"
-import project1Image from '../assets/project1.jpg';
-import project2Image from '../assets/project2.jpg';
-import project3Image from '../assets/project3.jpg';
+import project1Image from '../assets/project1.gif';
+import project2Image from '../assets/project2.png';
+import project3Image from '../assets/project3.gif';
 
 const BestProjects = () => {
     const { t } = useLanguage();
@@ -11,7 +11,7 @@ const BestProjects = () => {
     const bestProjectsData = [
         {
             image: project1Image,
-            techs: ['React', 'Node.js'],
+            techs: ['React', 'Spring Boot'],
             titleKey: 'projects.project-1-title',
             descKey: 'projects.project-1-description',
             github: 'https://github.com',
@@ -19,7 +19,7 @@ const BestProjects = () => {
         },
         {
             image: project2Image,
-            techs: ['React', 'Node.js'],
+            techs: ['React', '.NET'],
             titleKey: 'projects.project-2-title',
             descKey: 'projects.project-2-description',
             github: 'https://github.com',

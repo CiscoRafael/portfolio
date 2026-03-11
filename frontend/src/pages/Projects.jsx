@@ -1,9 +1,8 @@
 import { useLanguage } from "../services/translation";
 import '../styles/projects.css'
-import project1Image from '../assets/project1.jpg';
-import project2Image from '../assets/project2.jpg';
-import project3Image from '../assets/project3.jpg';
-import project4Image from '../assets/project4.jpg';
+import project1Image from '../assets/project1.gif';
+import project2Image from '../assets/project2.png';
+import project3Image from '../assets/project3.gif';
 
 const Projects = () => {
     const { t } = useLanguage()
@@ -11,7 +10,7 @@ const Projects = () => {
     const projectsData = [
         {
             image: project1Image,
-            techs: ['React', 'Node.js'],
+            techs: ['React', 'Spring Boot'],
             titleKey: 'projects.project-1-title',
             descKey: 'projects.project-1-description',
             github: 'https://github.com',
@@ -19,7 +18,7 @@ const Projects = () => {
         },
         {
             image: project2Image,
-            techs: ['React', 'Node.js'],
+            techs: ['React', '.NET'],
             titleKey: 'projects.project-2-title',
             descKey: 'projects.project-2-description',
             github: 'https://github.com',
@@ -27,17 +26,9 @@ const Projects = () => {
         },
         {
             image: project3Image,
-            techs: ['React', 'Node.js'],
+            techs: ['React', 'NestJS'],
             titleKey: 'projects.project-3-title',
             descKey: 'projects.project-3-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
-        },
-        {
-            image: project4Image,
-            techs: ['React', 'Node.js'],
-            titleKey: 'projects.project-4-title',
-            descKey: 'projects.project-4-description',
             github: 'https://github.com',
             demo: 'https://github.com'
         }
@@ -45,28 +36,28 @@ const Projects = () => {
 
     const smallProjectsData = [
         {
-            techs: ['Java', 'Springboot'],
+            techs: ['Java'],
             titleKey: 'smallprojects.project-1-title',
             descKey: 'smallprojects.project-1-description',
             github: 'https://github.com',
             demo: 'https://github.com'
         },
         {
-            techs: ['Python', 'Django'],
+            techs: ['C++'],
             titleKey: 'smallprojects.project-2-title',
             descKey: 'smallprojects.project-2-description',
             github: 'https://github.com',
             demo: 'https://github.com'
         },
         {
-            techs: ['JavaScript', 'Node.js'],
+            techs: ['Java'],
             titleKey: 'smallprojects.project-3-title',
             descKey: 'smallprojects.project-3-description',
             github: 'https://github.com',
             demo: 'https://github.com'
         },
         {
-            techs: ['C#', '.NET'],
+            techs: ['HTML', 'CSS', 'JavaScript'],
             titleKey: 'smallprojects.project-4-title',
             descKey: 'smallprojects.project-4-description',
             github: 'https://github.com',

@@ -1,9 +1,8 @@
 import { useLanguage } from '../services/translation'
 import Skills from '../components/Skills.jsx'
 import '../styles/about.css'
-import amazonLogo from "../assets/amazon.png";
-import googleLogo from "../assets/google.png"
-import ifoodLogo from "../assets/IfoodIcon.png"
+import minasMaquinasLogo from "../assets/minasMaquinas.png";
+import prefeituraLogo from "../assets/prefeitura.png";
 import profilePhoto from "../assets/foto.png"
 
 const AboutMe = () => {
@@ -42,7 +41,7 @@ const AboutMe = () => {
                 </h1>
                 <div className="timeline">
                     <div className="container">
-                        <img src={amazonLogo} alt="AmazonLogo"/>
+                        <img src={prefeituraLogo} alt="prefeituraLogo"/>
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
                         <div className="text-box">
                             <h2> {t('position-name-1')}</h2>
@@ -51,7 +50,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                     <div className="container">
-                        <img src={googleLogo} alt="GoogleLogo"/>
+                        <img src={minasMaquinasLogo} alt="minasMaquinasLogo"/>
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-2')}</h2>
                         <div className="text-box">
                             <h2> {t('position-name-2')}</h2>
