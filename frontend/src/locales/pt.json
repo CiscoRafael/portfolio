@@ -42,13 +42,13 @@
     },
     "smallprojects": {
         "project-1-title": "Hackaton University",
-        "project-1-description": "Bot para automatizar mensagens no whatsapp usando a biblioteca Baileys.",
+        "project-1-description": "Este projeto simula, de forma modular e didática, um Hackathon Universitário, desde a criação das equipes, submissão de projetos, formação da banca e avaliação das apresentações.",
         "project-2-title": "Simulador de Truco",
-        "project-2-description": "Gerador de senhas aleatórias com opções de personalização.",
+        "project-2-description": "Esse projeto simula uma partida de truco entre duas pessoas.",
         "project-3-title": "Meeting Room Booking",
-        "project-3-description": "Aplicação para converter valores entre diferentes moedas usando uma API de câmbio.",
+        "project-3-description": "Sistema de reserva de salas que permite visualizar disponibilidade em calendário, agendar rapidamente com filtros avançados, receber notificações automáticas, gerenciar tudo via painel administrativo e integrar com agendas como Google Calendar e Outlook.",
         "project-4-title": "MyList",
-        "project-4-description": "Aplicação para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir."
+        "project-4-description": "Aplicação web para você visualizar filmes, séries e jogos. Possibilitando gerenciar aqueles que você já e quer ver"
     },
     "enterprise-name-1": "Prefeitura de Contagem",
     "enterprise-name-2": "MinasMáquinas",

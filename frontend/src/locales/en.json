@@ -41,16 +41,15 @@
         "best-projects": "best-projects"
     },
     "smallprojects": {
-        "project-1-title": "Whatsapp bot",
-        "project-1-description": "Bot to automate messages on Whatsapp using the Baileys library.",
-        "project-2-title": "Password generator",
-        "project-2-description": "Random password generator with customization options.",
-        "project-3-title": "Currency converter",
-        "project-3-description": "Application to convert values between different currencies using an exchange API.",
-        "project-4-title": "Todo list",
-        "project-4-description": "Application to manage daily tasks with features to add, edit and delete."
+        "project-1-title": "Hackathon University",
+        "project-1-description": "This project simulates, in a modular and educational way, a University Hackathon, from team creation, project submission, committee formation, to the evaluation of presentations.",
+        "project-2-title": "Truco Simulator",
+        "project-2-description": "This project simulates a game of Truco between two players.",
+        "project-3-title": "Meeting Room Booking",
+        "project-3-description": "Room booking system that allows users to view availability in a calendar, schedule quickly with advanced filters, receive automatic notifications, manage everything through an administrative dashboard, and integrate with calendars such as Google Calendar and Outlook.",
+        "project-4-title": "MyList",
+        "project-4-description": "Web application that allows you to browse movies, series, and games, making it possible to manage the ones you have already watched or want to watch."
     },
-
     "enterprise-name-1": "Prefeitura de Contagem",
     "enterprise-name-2": "MinasMáquinas",
     "position-name-1": "IT Technician",
