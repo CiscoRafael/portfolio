@@ -13,24 +13,24 @@ const Projects = () => {
             techs: ['React', 'Spring Boot'],
             titleKey: 'projects.project-1-title',
             descKey: 'projects.project-1-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/pmg-es-2025-1-ti2-3740100-sistemamanutencaot-i-main',
+            demo: 'https://github.com/CiscoRafael/pmg-es-2025-1-ti2-3740100-sistemamanutencaot-i-main'
         },
         {
             image: project2Image,
             techs: ['React', '.NET'],
             titleKey: 'projects.project-2-title',
             descKey: 'projects.project-2-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/organizagestaointeligente',
+            demo: 'https://github.com/CiscoRafael/organizagestaointeligente'
         },
         {
             image: project3Image,
             techs: ['React', 'NestJS'],
             titleKey: 'projects.project-3-title',
             descKey: 'projects.project-3-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: '',
+            demo: ''
         }
     ];
 
@@ -39,29 +39,29 @@ const Projects = () => {
             techs: ['Java'],
             titleKey: 'smallprojects.project-1-title',
             descKey: 'smallprojects.project-1-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/Hackaton-Univesity',
+            demo: 'https://github.com/CiscoRafael/Hackaton-Univesity'
         },
         {
             techs: ['C++'],
             titleKey: 'smallprojects.project-2-title',
             descKey: 'smallprojects.project-2-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/Truco-em-C-',
+            demo: 'https://github.com/CiscoRafael/Truco-em-C-'
         },
         {
             techs: ['Java'],
             titleKey: 'smallprojects.project-3-title',
             descKey: 'smallprojects.project-3-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/pucmg-aulas/roombookings-g1-noite-meetingroombooking',
+            demo: 'https://github.com/pucmg-aulas/roombookings-g1-noite-meetingroombooking'
         },
         {
             techs: ['HTML', 'CSS', 'JavaScript'],
             titleKey: 'smallprojects.project-4-title',
             descKey: 'smallprojects.project-4-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/MyList',
+            demo: 'https://github.com/CiscoRafael/MyList'
         }
     ];
 

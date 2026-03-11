@@ -14,24 +14,24 @@ const BestProjects = () => {
             techs: ['React', 'Spring Boot'],
             titleKey: 'projects.project-1-title',
             descKey: 'projects.project-1-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/pmg-es-2025-1-ti2-3740100-sistemamanutencaot-i-main',
+            demo: 'https://github.com/CiscoRafael/pmg-es-2025-1-ti2-3740100-sistemamanutencaot-i-main'
         },
         {
             image: project2Image,
             techs: ['React', '.NET'],
             titleKey: 'projects.project-2-title',
             descKey: 'projects.project-2-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: 'https://github.com/CiscoRafael/organizagestaointeligente',
+            demo: 'https://github.com/CiscoRafael/organizagestaointeligente'
         },
         {
             image: project3Image,
             techs: ['React', 'Node.js'],
             titleKey: 'projects.project-3-title',
             descKey: 'projects.project-3-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            github: '',
+            demo: ''
         }
     ];
 
